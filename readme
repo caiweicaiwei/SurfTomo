@@ -1,0 +1,31 @@
+fm2dstt5.f90:
+test to see how sparsity related to smoothness, no sparsity first
+fm2dstt5_test.f90
+sparsity constrain, only to the model variation
+fm2dstt6.f90
+fm2dstt5_test.f90 with scaling
+fm2dstt7.f90
+add ray geometry to file
+fm2dstt8.f90
+add openmp
+fm2dstt8_2.f90
+a little change,seems bug
+fm2dstt9.f90
+add weight to the data residual
+fm2dstt10.f90
+l1 norm minimization to decrease the outlier effect
+the result seems not so good
+fm2dstt10_2.f90
+change to another verison, incorporate the regularization term into the misfit term
+fm2dstt10_3.f90
+add the scaling relationship of Vp and rho into the sensitivity matrix
+fm2dstt10_4.f90
+probably a bug in the weight matrix of IRLS, use sqrt to the weight
+fm2dstt11.f90
+fm2dstt8.f90 without scaling,the result seems good compared to the one with scaling, with smaller weight...
+fm2dstt11_2.f90
+add the scaling relationship of Vp and rho into the sensitivity matrix
+---------------------------------
+SurfTomo3.2
+new format of input file like joint inversion code
+#remember to renew the format again in a format that computing the traveltime for one source and then get the raypath for all receivers, this will save some time since computing the travel time field every time is unnecessary
