@@ -1,3 +1,4 @@
+<<<<<<< HEAD
       ! CODE FOR SURFACE WAVE TOMOGRAPHY USING DISPERSION MEASUREMENTS
       ! VERSION:
       !      1.0 
@@ -566,3 +567,9 @@
 
             end program            
 
+=======
+program test
+implicit none
+print 'hello world'
+end program
+>>>>>>> 1e4abad998045baadcc75ac76b42f70499fed2a4
